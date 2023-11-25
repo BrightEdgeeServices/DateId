@@ -13,7 +13,7 @@ jobs:
 #    uses: ./.github/workflows/02-check-rst-documentation.yml
 
   CI:
-    needs: Check-Documentation
+#    needs: Check-Documentation
     uses: ./.github/workflows/03-ci.yml
 
   Build-and-Release-to-Pypi:
